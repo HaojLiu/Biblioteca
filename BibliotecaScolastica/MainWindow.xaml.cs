@@ -21,7 +21,7 @@ namespace BibliotecaScolastica
     public partial class MainWindow : Window
     {
         public MainWindow()
-        {
+        { //commento da github
             InitializeComponent();
         }
         Libro book;
