@@ -14,6 +14,15 @@ namespace BibliotecaScolastica
         public string editore;
         public int numerodipagine;
 
+        public Libro(string autore, string titolo, int annodipubblicazione, string editore, int numerodipagine)
+        {
+            this.autore = autore;
+            this.titolo = titolo;
+            this.annodipubblicazione = annodipubblicazione;
+            this.editore = editore;
+            this.numerodipagine = numerodipagine;
+        }
+
         public string getAutore() { return autore; }
         public string getTitolo() { return titolo; }
         public int getAnnodipubblicazione() { return annodipubblicazione; }
