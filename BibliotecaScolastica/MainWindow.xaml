@@ -20,6 +20,9 @@
         <Label Content="Editore" HorizontalAlignment="Left" Margin="53,213,0,0" VerticalAlignment="Top"/>
         <Label Content="Numero di pagine" HorizontalAlignment="Left" Margin="53,253,0,0" VerticalAlignment="Top"/>
         <Button x:Name="btnStimatempo" Content="Stima tempo di lettura" HorizontalAlignment="Left" Margin="356,191,0,0" VerticalAlignment="Top" Click="btnStimatempo_Click"/>
+        <Button x:Name="btnCerca" Content="Cerca libro per titolo" HorizontalAlignment="Left" Margin="356,253,0,0" VerticalAlignment="Top" Click="btnCerca_Click"/>
+        <Button x:Name="btnStampaAutore" Content="Stampa libri per autore" HorizontalAlignment="Left" Margin="368,306,0,0" VerticalAlignment="Top" Click="btnStampaAutore_Click"/>
+        <Button x:Name="btnTotaleLibri" Content="Totale Libri" HorizontalAlignment="Left" Margin="559,200,0,0" VerticalAlignment="Top" Click="btnTotaleLibri_Click"/>
 
     </Grid>
 </Window>

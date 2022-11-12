@@ -43,5 +43,20 @@ namespace BibliotecaScolastica
         {
             MessageBox.Show("Il tempo stimato di lettura è " + book.readingTime());
         }
+
+        private void btnCerca_Click(object sender, RoutedEventArgs e)
+        {
+            biblioteca.RicercaLibro(txtTitolo.Text);
+        }
+
+        private void btnStampaAutore_Click(object sender, RoutedEventArgs e)
+        {
+            biblioteca.CercaPerAutore(txtAutore.Text);
+        }
+
+        private void btnTotaleLibri_Click(object sender, RoutedEventArgs e)
+        {
+            biblioteca.TotaleLibri();
+        }
     }
 }
