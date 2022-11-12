@@ -7,6 +7,19 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Button x:Name="bntAddLibro" Content="Aggiungi Libro" HorizontalAlignment="Left" Margin="356,86,0,0" VerticalAlignment="Top" Click="bntAddLibro_Click"/>
+        <Button x:Name="btnStampa" Content="Stampa libro" HorizontalAlignment="Left" Margin="356,138,0,0" VerticalAlignment="Top" Click="btnStampa_Click"/>
+        <TextBox x:Name="txtAutore" HorizontalAlignment="Left" Margin="169,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtTitolo" HorizontalAlignment="Left" Margin="169,151,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtAnno" HorizontalAlignment="Left" Margin="169,182,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtEditore" HorizontalAlignment="Left" Margin="169,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtPagine" HorizontalAlignment="Left" Margin="169,253,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Autore" HorizontalAlignment="Left" Margin="45,105,0,0" VerticalAlignment="Top"/>
+        <Label Content="Titolo" HorizontalAlignment="Left" Margin="49,138,0,0" VerticalAlignment="Top"/>
+        <Label Content="Anno pubblicazione" HorizontalAlignment="Left" Margin="49,178,0,0" VerticalAlignment="Top"/>
+        <Label Content="Editore" HorizontalAlignment="Left" Margin="53,213,0,0" VerticalAlignment="Top"/>
+        <Label Content="Numero di pagine" HorizontalAlignment="Left" Margin="53,253,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnStimatempo" Content="Stima tempo di lettura" HorizontalAlignment="Left" Margin="356,191,0,0" VerticalAlignment="Top" Click="btnStimatempo_Click"/>
+
     </Grid>
 </Window>
